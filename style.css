@@ -1,0 +1,20 @@
+/*nav-css*/
+nav {
+    background-color:#BF0E00;
+}
+.navbar-brand {
+    font-size: 45px;
+}
+/*title*/
+.title {
+    display:flex;
+    position:relative;
+    top:100px;
+    background-color:#BF0E00;
+    padding:100px;
+}
+.title
+.hi{
+    margin:auto;
+    color:black;
+}
