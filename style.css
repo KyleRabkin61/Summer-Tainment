@@ -12,9 +12,16 @@ nav {
     top:100px;
     background-color:#BF0E00;
     padding:100px;
+    height:600px;
 }
 .title
 .hi{
     margin:auto;
     color:black;
+}
+.line {
+ width: 100%;
+ margin-top:200px;
+ color:#BF0E00;
+ opacity:1;
 }
