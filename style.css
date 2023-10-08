@@ -9,6 +9,14 @@ nav {
 .navbar-brand {
     font-size: 45px;
 }
+.nav-link {
+    color:black;
+    transition:0.5s;
+}
+.nav-link:hover {
+    color:white;
+    transition:0.5s;
+}
 /*title*/
 .title {
     display:flex;
@@ -19,42 +27,46 @@ nav {
     margin-bottom:50px;
     height:600px;
 }
-.title
 .GC-title{
     margin:auto;
     color:black;
 }
-.title-d
-.GC-description {
-    color:black;
-    padding:25px;
-    display:flex;
+.descrip {
     position:relative;
-    top:130px;
+    top:100px;
     background-color:#BF0E00;
-    display:inline-block;
-    font-size:4vw;
-    margin:auto;
-    overflow:scroll;
-    height:600px;
-}
-.calender {
-    color:black;
-    padding:25px;
-    display:flex;
-    position:relative;
-    top:130px;
-    background-color:#BF0E00;
-    display:inline-block;
-    font-size:4vw;
-    margin:auto;
-    overflow:scroll;
+    height:300px;
     margin-bottom:50px;
-    height:600px;
+    font-size: 20px;
+    overflow:scroll;
+    color:black;
+}
+.learn {
+    position:relative;
+    top:100px;
+    background-color:#BF0E00;
+    height:300px;
+    font-size: 20px;
+    overflow:scroll;
+    color:black;
 }
 .line {
  width: 100%;
  margin-top:200px;
  margin-bottom:0px;
  color:#BF0E00;
+}
+.footer {
+    padding: 60px;
+    background-color:#BF0E00;
+    color: black;
+    margin-top:200px;
+  }
+.GC-link {
+    color:black;
+    transition:0.5s;
+}
+.GC-link:hover {
+    color:white;
+    transition:0.5s;
 }
