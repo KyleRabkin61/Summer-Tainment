@@ -9,6 +9,12 @@ nav {
 }
 .navbar-brand {
     font-size: 45px;
+    color:black;
+    transition:0.5s;
+}
+.navbar-brand:hover {
+    color:white;
+    transition:0.5s;
 }
 .nav-link {
     color:black;
@@ -18,25 +24,34 @@ nav {
     color:white;
     transition:0.5s;
 }
-/*title*/
+/*title-header-css*/
+.title-header {
+    position: relative;
+    top:100px;
+    width:100%;
+    color:black;
+    font-size:30px;
+}
+/*title-css*/
 .title {
     display:flex;
     position:relative;
-    top:130px;
+    top:150px;
     background-color:#BF0E00;
-    padding:100px;
+    padding:50px;
     margin-bottom:50px;
-    height:600px;
+    height:700px;
 }
 .GC-title{
     margin:auto;
     color:black;
 }
+/*what-css*/
 .descrip {
     position:relative;
     top:100px;
     background-color:#BF0E00;
-    height:300px;
+    height:500px;
     margin-bottom:50px;
     font-size: 20px;
     overflow:scroll;
@@ -46,7 +61,7 @@ nav {
     position:relative;
     top:100px;
     background-color:#BF0E00;
-    height:300px;
+    height:500px;
     font-size: 20px;
     overflow:scroll;
     color:black;
@@ -70,4 +85,33 @@ nav {
 .GC-link:hover {
     color:white;
     transition:0.5s;
+}
+/*img-header-css*/
+.img-header {
+    position: relative;
+    top:100px;
+    width:100%;
+    color:black;
+    font-size:30px;
+}
+/*img-css*/
+.bino {
+    position:relative;
+    top:200px;
+    margin-bottom:50px;
+}
+.img-bino {
+    width:100%;
+    height:500px;
+    object-fit:cover;
+}
+.not-bino {
+    position:relative;
+    top:200px;
+    margin-bottom:50px;
+}
+.img-not-bino {
+    width:100%;
+    height:500px;
+    object-fit:cover;
 }
